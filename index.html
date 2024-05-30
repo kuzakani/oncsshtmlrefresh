@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- iconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- SwiperJs -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <title> Atom </title>
+  </head>
+  <body>
+
+
+
+    <nav class="nav-fixed">
+     <div class="container nav__container">
+        <a href="./index.html" class="main-page"> <h4> EGATOR </h4> </a>
+
+        <ul class="nav__menu">
+           <li class="link" > <a href="home.html"> Home </a>  </li>
+           <li class="link" > <a href="about.html"> About </a> </li>
+           <li class="link" > <a href="courses.html"> Courses </a> </li>
+           <li class="link" > <a href="contact.html"> Contact </a> </li>
+        </ul>
+
+          <button class="open-menu-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 1792 1792" id="Bars"><path d="M1664 1344v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V832q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V320q0-26 19-45t45-19h1408q26 0 45 19t19 45z" fill="#ffffff" class="color000000 svgShape"></path></svg> </button>
+          <button class="close-menu-btn"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="Close"><path d="M437.5 386.6L306.9 256l130.6-130.6c14.1-14.1 14.1-36.8 0-50.9-14.1-14.1-36.8-14.1-50.9 0L256 205.1 125.4 74.5c-14.1-14.1-36.8-14.1-50.9 0-14.1 14.1-14.1 36.8 0 50.9L205.1 256 74.5 386.6c-14.1 14.1-14.1 36.8 0 50.9 14.1 14.1 36.8 14.1 50.9 0L256 306.9l130.6 130.6c14.1 14.1 36.8 14.1 50.9 0 14-14.1 14-36.9 0-50.9z" fill="#ffffff" class="color000000 svgShape"></path></svg> </button>
+     </div>
+
+
+    </nav>
+
+    <!-- ======================== Header ========================== -->
+
+    <header>
+      <div class="container header__container">
+          <div class="header__left">
+
+            <h2> Grow your skills to advance your career path </h2>
+
+              <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum
+              officia obcaecati magni ratione reprehenderit.
+              </p>
+
+
+                <a href="./courses.html" class="btn btn-primary" > Get Started </a>
+
+
+          </div>
+
+            <div class="header__right">
+              <div class="header__right__img">
+                <img src="./images/header.svg" alt="">
+              </div>
+
+            </div>
+
+      </div>
+
+    </header>
+
+
+    <section class="sec">
+      <div class="container categories__section">
+
+        <div class="categories__left">
+          <h1> Categories </h1>
+
+          <p> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod adipisicing tempor ut labore
+           et dolore magna  incididunt, ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor ipsum dolor sit amet. </p>
+
+           <a class="btn" href="#"> Learn More </a>
+        </div>
+
+        <div class="categories__right">
+
+           <div class="category">
+              <span class="icon1 icon"> <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox=".004 0 63.993 64" id="bitcoin"><path fill="#f7931a" d="M63.04 39.741c-4.274 17.143-21.638 27.575-38.783 23.301C7.12 58.768-3.313 41.404.962 24.262 5.234 7.117 22.597-3.317 39.737.957c17.144 4.274 27.576 21.64 23.302 38.784z"></path><path fill="#fff" d="M46.11 27.441c.636-4.258-2.606-6.547-7.039-8.074l1.438-5.768-3.512-.875-1.4 5.616c-.922-.23-1.87-.447-2.812-.662l1.41-5.653-3.509-.875-1.439 5.766c-.764-.174-1.514-.346-2.242-.527l.004-.018-4.842-1.209-.934 3.75s2.605.597 2.55.634c1.422.355 1.68 1.296 1.636 2.042l-1.638 6.571c.098.025.225.061.365.117l-.37-.092-2.297 9.205c-.174.432-.615 1.08-1.609.834.035.051-2.552-.637-2.552-.637l-1.743 4.02 4.57 1.139c.85.213 1.683.436 2.502.646l-1.453 5.835 3.507.875 1.44-5.772c.957.26 1.887.5 2.797.726L27.504 50.8l3.511.875 1.453-5.823c5.987 1.133 10.49.676 12.383-4.738 1.527-4.36-.075-6.875-3.225-8.516 2.294-.531 4.022-2.04 4.483-5.157zM38.087 38.69c-1.086 4.36-8.426 2.004-10.807 1.412l1.928-7.729c2.38.594 10.011 1.77 8.88 6.317zm1.085-11.312c-.99 3.966-7.1 1.951-9.083 1.457l1.748-7.01c1.983.494 8.367 1.416 7.335 5.553z"></path></svg> </span>
+              <h5> Blockchain </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+           <div class="category">
+              <span class="icon2 icon"> <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 47.5" id="art"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#d99e82" d="M21.849 9.41c-.395-1.346-2.46-1.924-4.613-1.291-2.153.632-3.578 2.234-3.183 3.581.395 1.346 2.461 1.924 4.613 1.29 2.154-.631 3.579-2.233 3.183-3.58M19 33.857c-9.941 0-18-6.908-18-15.428 0-1.067.127-2.108.367-3.113C3.146 12.256 4.377 14.188 10 17c5.727 2.864 0-4-2-8-.615-1.231-.281-2.272.56-3.124C11.506 4.072 15.104 3 19 3c9.942 0 18 6.907 18 15.429 0 8.52-8.058 15.428-18 15.428"></path><path fill="#5c913b" d="M14 26a3 3 0 1 0-6 0 3 3 0 0 0 6 0"></path><path fill="#269" d="M24 28a3 3 0 1 0-6 0 3 3 0 0 0 6 0"></path><path fill="#dd2e44" d="M33 22a3 3 0 1 0-6 0 3 3 0 0 0 6 0"></path><path fill="#ffcc4d" d="M32 13a3.001 3.001 0 0 0-6 0 3.001 3.001 0 0 0 6 0"></path></g></svg> </span>
+              <h5> Graphic Design </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+           <div class="category">
+              <span class="icon3 icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="coins"><path fill="#2b4a54" d="M20.44 36.12c.85 0 1.71-.01 2.54-.04l.26-.01-.07-.25c-.47-1.77-.71-3.62-.71-5.5 0-1.26.11-2.49.31-3.66l.04-.23-.24-.01c-.67-.02-1.38-.03-2.14-.03C8.74 26.39 0 28.96 0 31.26c0 2.29 8.74 4.86 20.44 4.86z"></path><path fill="#2b4a54" d="M7.09 43.59c3.78.83 8.52 1.29 13.35 1.29 2.37 0 4.71-.11 6.96-.33l.39-.04-.25-.3a21.135 21.135 0 0 1-3.73-6.38l-.05-.14-.15.01c-1.03.04-2.1.06-3.17.06-8.82 0-16.72-1.45-20.12-3.69L0 33.86v6.17c0 .74 1.49 2.33 7.09 3.56z"></path><path fill="#2b4a54" d="m29.3 46.07-.07-.07-.1.01c-2.7.33-5.62.5-8.69.5-4.98 0-9.84-.47-13.7-1.33-1.94-.42-4.62-1.17-6.42-2.33l-.32-.2v6.13c0 2.03 7.78 4.85 20.44 4.85 6.92 0 13.14-.86 17.07-2.36l.55-.21-.56-.18c-3.04-.95-5.87-2.61-8.2-4.81z"></path><path fill="#2b4a54" d="M44.05 10.36c-11 0-19.95 8.95-19.95 19.96 0 11 8.95 19.95 19.95 19.95S64 41.32 64 30.32s-8.95-19.96-19.95-19.96zm0 35.14c-8.37 0-15.18-6.81-15.18-15.18 0-8.37 6.81-15.18 15.18-15.18s15.18 6.81 15.18 15.18c0 8.37-6.81 15.18-15.18 15.18z"></path><path fill="#2b4a54" d="M47.99 30.14c-.3-.3-.67-.56-1.09-.79-.38-.2-.78-.38-1.27-.58-.35-.13-.71-.27-1.06-.39-.32-.12-.63-.26-.95-.43-.24-.12-.43-.28-.57-.47a.932.932 0 0 1-.18-.58c0-.16.03-.3.1-.44.04-.1.11-.19.22-.28.13-.1.3-.18.5-.23.22-.06.5-.09.84-.09.39 0 .72.04 1 .12.32.09.6.18.84.28.25.11.46.2.63.28.25.13.44.19.6.19.13 0 .26-.04.35-.11.12-.08.22-.22.25-.34.05-.12.07-.27.09-.44.01-.15.02-.34.02-.57 0-.18-.01-.33-.02-.43 0-.15-.01-.29-.04-.4-.03-.14-.06-.24-.12-.34-.07-.11-.16-.21-.21-.25-.1-.1-.25-.2-.44-.29-.17-.07-.35-.15-.56-.23-.2-.06-.42-.13-.65-.18-.09-.02-.18-.04-.28-.06l.17-1.67c0-.11-.02-.22-.05-.34-.05-.16-.17-.29-.39-.4-.13-.05-.27-.08-.42-.1-.16-.02-.36-.04-.6-.04-.21 0-.39 0-.49.02-.17.02-.31.05-.39.09-.17.07-.26.18-.33.26-.04.06-.11.19-.11.32l-.18 1.82c-.54.08-1.02.22-1.43.39-.52.21-.98.51-1.37.88-.37.37-.66.8-.85 1.27-.2.48-.3 1.01-.3 1.61 0 .65.1 1.21.29 1.65.19.46.45.86.78 1.19.31.31.67.58 1.08.81.38.21.77.39 1.16.53.39.16.77.3 1.13.43.33.12.64.26.93.43.24.13.42.28.57.47.12.15.17.34.17.59 0 .39-.14.68-.45.91-.33.25-.86.38-1.6.38-.51 0-.93-.05-1.28-.15a6.098 6.098 0 0 1-1.58-.66c-.33-.2-.51-.22-.61-.22-.13 0-.26.03-.4.11-.15.09-.23.23-.3.38-.04.12-.07.26-.1.47-.01.16-.02.38-.02.62 0 .33.02.6.06.81.06.24.15.42.28.55.1.1.24.2.47.33.16.09.38.18.61.27.23.09.49.16.78.24.17.04.34.07.51.11l-.17 1.71c-.04.15-.03.3.04.5.07.13.18.24.33.34.13.06.27.1.45.13.15.02.35.04.61.04.2 0 .38-.01.51-.04.17-.03.27-.06.31-.08.17-.05.32-.16.35-.25.08-.11.11-.23.13-.35l.19-1.95c.59-.08 1.14-.21 1.63-.39a5.09 5.09 0 0 0 1.56-.93c.44-.4.79-.87 1.02-1.41.24-.52.35-1.13.35-1.81 0-.65-.1-1.19-.3-1.64a3.22 3.22 0 0 0-.75-1.18z"></path></svg> </span>
+              <h5> Finance </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+           <div class="category">
+            <span class="icon4 icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ads"><polygon fill="none" stroke="#ffb90b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="47.73 44.68 11 38 11 22 47.73 15.32 47.73 44.68"></polygon><path fill="none" stroke="#ffb90b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 21V46.25A4.81 4.81 0 0021.1 51h2.4M11 24h0a0 0 0 010 0V36a0 0 0 010 0h0a5 5 0 01-5-5V29A5 5 0 0111 24z"></path><line x1="54" x2="58" y1="30" y2="30" fill="none" stroke="#ffb90b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line><line x1="53.44" x2="56.56" y1="25.25" y2="22.75" fill="none" stroke="#ffb90b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line><line x1="56.56" x2="53.44" y1="37.25" y2="34.75" fill="none" stroke="#ffb90b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></svg> </span>
+              <h5> Marketing </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+           <div class="category">
+              <span class="icon5 icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 47.5" id="music"><defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g fill="#5dadec" clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path d="m15.182 36.833-6.363-1.301c-.45-.093-.819-.544-.819-1.003V18.672A6.194 6.194 0 0 1 6 19c-2.761 0-5-1.741-5-3.888 0-2.148 2.239-3.889 5-3.889 2.713 0 4.909 1.683 4.986 3.777H11v15.523l4.182.855c.45.093.818.544.818 1.003v3.785c0 .459-.368.759-.818.667M36.182 32.833l-6.363-1.301c-.45-.093-.819-.544-.819-1.003V14.672A6.198 6.198 0 0 1 27 15c-2.761 0-5-1.741-5-3.888 0-2.148 2.239-3.889 5-3.889 2.713 0 4.909 1.683 4.986 3.777H32v15.523l4.182.855c.45.093.818.544.818 1.003v3.785c0 .459-.368.759-.818.667"></path><path d="m24.182 26.832-6.363-1.301c-.45-.093-.819-.544-.819-1.003V8.671a6.194 6.194 0 0 1-2 .328c-2.761 0-5-1.741-5-3.888 0-2.148 2.239-3.889 5-3.889 2.713 0 4.909 1.683 4.986 3.777H20v15.523l4.182.855c.45.093.818.544.818 1.003v3.785c0 .459-.368.759-.818.667"></path></g></svg> </span>
+              <h5> Music </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+           <div class="category">
+              <span class="icon6 icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="business-operations"><path d="M142.76 270.872c-42.553 0-77.172 34.62-77.172 77.173 0 42.553 34.619 77.172 77.172 77.172 42.554 0 77.173-34.62 77.173-77.172 0-42.554-34.62-77.173-77.173-77.173zm0 138.345c-33.73 0-61.172-27.442-61.172-61.172 0-33.731 27.441-61.173 61.172-61.173s61.173 27.442 61.173 61.173c0 33.73-27.443 61.172-61.173 61.172zm137.635-86.877-18.477-7.112a122.756 122.756 0 0 0-11.702-28.226l8.042-18.105a7.999 7.999 0 0 0-1.655-8.904l-25.792-25.791a7.999 7.999 0 0 0-8.903-1.655l-18.113 8.044a122.72 122.72 0 0 0-28.216-11.699l-7.115-18.482a8 8 0 0 0-7.466-5.126h-36.475a8 8 0 0 0-7.466 5.126l-7.114 18.482a122.747 122.747 0 0 0-28.217 11.699l-18.113-8.044a7.998 7.998 0 0 0-8.904 1.654l-25.791 25.792a8 8 0 0 0-1.654 8.904l8.043 18.11a122.695 122.695 0 0 0-11.699 28.22l-18.48 7.113A8 8 0 0 0 0 329.807v36.475a8 8 0 0 0 5.126 7.466l18.477 7.112a122.875 122.875 0 0 0 11.701 28.226l-8.041 18.106a8 8 0 0 0 1.654 8.904l25.792 25.792a8 8 0 0 0 8.904 1.655l18.113-8.044a122.74 122.74 0 0 0 28.216 11.699l7.115 18.482a8 8 0 0 0 7.466 5.126h36.475a8 8 0 0 0 7.466-5.126l7.112-18.477a122.717 122.717 0 0 0 28.226-11.701l18.105 8.041a8 8 0 0 0 8.904-1.654l25.792-25.792a8 8 0 0 0 1.654-8.904l-8.045-18.113a122.728 122.728 0 0 0 11.699-28.217l18.482-7.114a8 8 0 0 0 5.126-7.466v-36.475a7.999 7.999 0 0 0-5.124-7.468zm-10.874 38.449-17.206 6.623a7.998 7.998 0 0 0-4.908 5.614 106.824 106.824 0 0 1-12.992 31.333 8.004 8.004 0 0 0-.499 7.442l7.49 16.864-18.023 18.024-16.857-7.487a7.999 7.999 0 0 0-7.442.5 106.852 106.852 0 0 1-31.342 12.993 8 8 0 0 0-5.614 4.909l-6.621 17.2h-25.489l-6.623-17.206a8.002 8.002 0 0 0-5.613-4.909 106.842 106.842 0 0 1-31.335-12.992 8.002 8.002 0 0 0-7.441-.499l-16.864 7.49-18.023-18.023 7.486-16.857a8.004 8.004 0 0 0-.499-7.442 106.91 106.91 0 0 1-12.994-31.344 7.997 7.997 0 0 0-4.908-5.613L16 360.789V335.3l17.204-6.622a8 8 0 0 0 4.909-5.614 106.836 106.836 0 0 1 12.99-31.337 8.001 8.001 0 0 0 .5-7.442l-7.488-16.861L62.137 249.4l16.864 7.49a7.997 7.997 0 0 0 7.441-.499 106.85 106.85 0 0 1 31.336-12.991 8 8 0 0 0 5.613-4.909l6.623-17.205h25.489l6.623 17.206a8.002 8.002 0 0 0 5.613 4.909 106.845 106.845 0 0 1 31.335 12.991 8.003 8.003 0 0 0 7.441.5l16.864-7.49 18.023 18.023-7.487 16.856a8.003 8.003 0 0 0 .5 7.443 106.894 106.894 0 0 1 12.994 31.343 7.996 7.996 0 0 0 4.908 5.614l17.2 6.621v25.487zm237.352-69.9-10.992-4.231a83.962 83.962 0 0 0-6.973-16.82l4.785-10.771a8 8 0 0 0-1.655-8.905l-17.101-17.1a7.998 7.998 0 0 0-8.903-1.654l-10.776 4.787a84.003 84.003 0 0 0-16.813-6.971l-4.233-10.997a8 8 0 0 0-7.466-5.126h-24.183a8 8 0 0 0-7.466 5.126l-4.233 10.997a84.061 84.061 0 0 0-16.813 6.971l-10.776-4.787a8 8 0 0 0-8.904 1.655l-17.1 17.1a8 8 0 0 0-1.654 8.904l4.786 10.775a84.037 84.037 0 0 0-6.973 16.815l-10.994 4.232a8.001 8.001 0 0 0-5.126 7.466v24.183a8 8 0 0 0 5.126 7.466l10.992 4.231a83.974 83.974 0 0 0 6.973 16.819l-4.784 10.771a8 8 0 0 0 1.654 8.904l17.101 17.1a7.997 7.997 0 0 0 8.904 1.654l10.776-4.786a84.086 84.086 0 0 0 16.813 6.971l4.232 10.996a8 8 0 0 0 7.466 5.126h24.183a8 8 0 0 0 7.466-5.126l4.231-10.992a83.94 83.94 0 0 0 16.819-6.973l10.772 4.784a7.999 7.999 0 0 0 8.904-1.654l17.1-17.101a8 8 0 0 0 1.654-8.904l-4.787-10.776a84.1 84.1 0 0 0 6.972-16.813l10.996-4.233a8 8 0 0 0 5.126-7.466v-24.183a7.997 7.997 0 0 0-5.126-7.464zM496 317.045l-9.68 3.726a7.997 7.997 0 0 0-4.908 5.613 68.19 68.19 0 0 1-8.286 19.985 8.001 8.001 0 0 0-.5 7.442l4.215 9.489-9.331 9.332-9.485-4.212a7.996 7.996 0 0 0-7.442.5 68.161 68.161 0 0 1-19.99 8.287 8 8 0 0 0-5.614 4.909l-3.725 9.676h-13.196l-3.727-9.68a8.002 8.002 0 0 0-5.613-4.909 68.138 68.138 0 0 1-19.985-8.286 7.997 7.997 0 0 0-7.441-.499l-9.489 4.214-9.332-9.332 4.213-9.484a8 8 0 0 0-.5-7.443 68.146 68.146 0 0 1-8.288-19.99 7.995 7.995 0 0 0-4.908-5.613l-9.676-3.725v-13.197l9.678-3.726a7.995 7.995 0 0 0 4.908-5.613 68.166 68.166 0 0 1 8.287-19.987 8.001 8.001 0 0 0 .5-7.442l-4.214-9.488 9.331-9.332 9.489 4.214a8.002 8.002 0 0 0 7.441-.5 68.176 68.176 0 0 1 19.986-8.286 8 8 0 0 0 5.613-4.909l3.727-9.68h13.196l3.727 9.68a8.002 8.002 0 0 0 5.613 4.909 68.132 68.132 0 0 1 19.985 8.286 8.002 8.002 0 0 0 7.441.5l9.489-4.215 9.332 9.332-4.213 9.484a8 8 0 0 0 .5 7.442 68.123 68.123 0 0 1 8.286 19.99 8 8 0 0 0 4.91 5.615l9.676 3.725v13.198zm-81.346-56.773c-27.666 0-50.175 22.508-50.175 50.175 0 27.666 22.509 50.174 50.175 50.174s50.175-22.508 50.175-50.174c0-27.667-22.509-50.175-50.175-50.175zm0 84.349c-18.844 0-34.175-15.331-34.175-34.174 0-18.844 15.331-34.175 34.175-34.175s34.175 15.331 34.175 34.175c0 18.844-15.331 34.174-34.175 34.174zM293.33 68.366c-27.666 0-50.175 22.508-50.175 50.175 0 27.666 22.509 50.174 50.175 50.174s50.175-22.508 50.175-50.174-22.509-50.175-50.175-50.175zm0 84.349c-18.844 0-34.175-15.331-34.175-34.174 0-18.844 15.331-34.175 34.175-34.175s34.175 15.331 34.175 34.175c0 18.844-15.331 34.174-34.175 34.174zm51.38 44.864a8.002 8.002 0 0 0 8.904-1.654l17.101-17.101a8 8 0 0 0 1.654-8.904l-4.787-10.776a84.1 84.1 0 0 0 6.972-16.813l10.996-4.233a8 8 0 0 0 5.126-7.466v-24.183a8 8 0 0 0-5.127-7.466l-10.992-4.231a83.962 83.962 0 0 0-6.973-16.82l4.785-10.771a7.999 7.999 0 0 0-1.655-8.904l-17.101-17.1a7.999 7.999 0 0 0-8.903-1.655l-10.776 4.787a84.041 84.041 0 0 0-16.813-6.971l-4.232-10.996a8 8 0 0 0-7.466-5.126H281.24a8 8 0 0 0-7.466 5.126l-4.232 10.996a84.036 84.036 0 0 0-16.814 6.971l-10.776-4.787a8 8 0 0 0-8.904 1.655l-17.1 17.1a8 8 0 0 0-1.654 8.904l4.786 10.775a84.037 84.037 0 0 0-6.973 16.815l-10.994 4.232a8.001 8.001 0 0 0-5.126 7.466v24.183a8 8 0 0 0 5.126 7.466l10.992 4.231a83.974 83.974 0 0 0 6.973 16.819l-4.784 10.771a8 8 0 0 0 1.654 8.904l17.101 17.1a7.994 7.994 0 0 0 8.904 1.654l10.776-4.786a84.086 84.086 0 0 0 16.813 6.971l4.232 10.996a8 8 0 0 0 7.466 5.126h24.183a8 8 0 0 0 7.466-5.126l4.231-10.992a83.93 83.93 0 0 0 16.819-6.973l10.771 4.786zm-15.452-20.565a68.13 68.13 0 0 1-19.99 8.287 8 8 0 0 0-5.614 4.909l-3.725 9.676h-13.196l-3.727-9.68a8.002 8.002 0 0 0-5.613-4.909 68.126 68.126 0 0 1-19.984-8.286 8.001 8.001 0 0 0-7.442-.499l-9.489 4.214-9.332-9.332 4.213-9.484a8 8 0 0 0-.5-7.443 68.146 68.146 0 0 1-8.288-19.99 7.995 7.995 0 0 0-4.908-5.613l-9.676-3.725v-13.197l9.678-3.726a7.995 7.995 0 0 0 4.908-5.613 68.166 68.166 0 0 1 8.287-19.987 8.001 8.001 0 0 0 .5-7.442l-4.214-9.488 9.331-9.332 9.489 4.214a8.005 8.005 0 0 0 7.441-.499 68.145 68.145 0 0 1 19.985-8.286 8 8 0 0 0 5.614-4.909l3.727-9.68h13.196l3.726 9.679a8 8 0 0 0 5.614 4.909 68.134 68.134 0 0 1 19.985 8.286 8.002 8.002 0 0 0 7.441.499l9.489-4.215 9.332 9.332-4.213 9.484a8.003 8.003 0 0 0 .5 7.443 68.111 68.111 0 0 1 8.286 19.99 8 8 0 0 0 4.91 5.615l9.676 3.725v13.197l-9.68 3.726a7.997 7.997 0 0 0-4.908 5.613 68.19 68.19 0 0 1-8.286 19.985 8.001 8.001 0 0 0-.5 7.442l4.215 9.489-9.332 9.332-9.484-4.212a8.005 8.005 0 0 0-7.442.501zM7.854 200.611a8 8 0 0 1 .947-11.274c30.034-25.376 66.817-41.639 105.545-47.006l-16.908-8.98a8.002 8.002 0 0 1-3.313-10.818 8.003 8.003 0 0 1 10.818-3.313l41.569 22.078a8 8 0 0 1 1.375 13.205l-32.685 27.3a7.965 7.965 0 0 1-5.124 1.86 7.98 7.98 0 0 1-6.144-2.872 8 8 0 0 1 1.012-11.269l13.972-11.67c-36.616 4.605-71.458 19.765-99.792 43.705a7.97 7.97 0 0 1-5.159 1.889 7.973 7.973 0 0 1-6.113-2.835zM402.739 91.173l8.907-41.644a8.003 8.003 0 0 1 12.324-4.941l38.916 26.476A7.999 7.999 0 0 1 465 82.178a7.997 7.997 0 0 1-11.114 2.114l-16.574-11.276c4.628 14.608 6.979 29.839 6.979 45.524 0 20.892-4.191 41.125-12.456 60.137a8.004 8.004 0 0 1-7.341 4.813 7.976 7.976 0 0 1-3.186-.666 7.999 7.999 0 0 1-4.147-10.526c7.386-16.987 11.13-35.074 11.13-53.758 0-14.095-2.121-27.776-6.297-40.891l-3.608 16.87a8.004 8.004 0 0 1-9.496 6.15 8 8 0 0 1-6.151-9.496zM503.95 427.665a8.003 8.003 0 0 1 .092 7.521l-21.613 41.812a7.999 7.999 0 0 1-10.78 3.433 8 8 0 0 1-3.433-10.78l8.951-17.318a148.502 148.502 0 0 1-33.148 10.841 149.612 149.612 0 0 1-29.605 2.972c-28.226 0-55.906-8.078-80.125-23.684a8 8 0 0 1 8.666-13.45c29.142 18.777 63.907 25.338 97.898 18.478 10.761-2.172 21.058-5.604 30.793-10.238l-17.845-1.618a8 8 0 0 1-7.246-8.689c.399-4.399 4.278-7.654 8.689-7.245l42.412 3.844a8.002 8.002 0 0 1 6.294 4.121z"></path></svg> </span>
+              <h5> Business </h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adi temboribus qui. </p>
+
+           </div>
+
+
+       </div>
+
+      </div>
+    </section>
+
+    <section class="pop__courses">
+
+      <div class="container courses__section">
+
+        <h2> Our Popular Courses </h2>
+
+        <div class="courses__grid">
+
+          <div class="course1 course">
+               <img src="./images/course1.jpg" alt="">
+               <h4> Responsive Social Media Website UI Design </h4>
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                   Ut enim ad minim decare veniam,Duis aute irure dolor fonam. </p>
+               <a href="#" class="btn btn-primary"> Learn More </a>
+          </div>
+
+              <div class="course2 course">
+                <img src="./images/course2.jpg" alt="">
+                <h4> Responsive Social Media Website UI Design </h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    Ut enim ad minim decare veniam,Duis aute irure dolor fonam. </p>
+                <a href="#" class="btn btn-primary"> Learn More </a>
+              </div>
+
+                  <div class="course3 course">
+                    <img src="./images/course3.jpg" alt="">
+                    <h4> Responsive Social Media Website UI Design </h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        Ut enim ad minim decare veniam,Duis aute irure dolor fonam. </p>
+                    <a href="#" class="btn btn-primary"> Learn More </a>
+                 </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!--  <section class="questions__section"><div class="container questions__container">  <h3> Frequently Asked Questions </h3><div class="questions__grid"><div class="question__asked"><div class="plusAndMinus"><span class="plus plus1"> + </span>
+                        <span class="minus minus1"> - </span> </div>  <div class="the__question"><h4> How can I know which course suits me ? </h4>
+                        <p class=" written__answer1 written__answer"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam. </p></div></div>  </div>  </div>  </section> -->
+
+<section class="questions_section">
+  <h3> Frequently Asked Qusetions ( FAQ's ) </h3>
+  <div class="container questions_container">
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> Will I get a certificate after finishing the course ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> How long it takes to finish the front-end course ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> What are the available paying methods ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> At what level I should be at to start ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> Is there a community built around your courses ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> Do the courses have a lifetime access option ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> How much long the guarantee of refund lasts ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+     <article class="faq">
+       <div class="plus_icon"> <span class="plus"> + </span> </div>
+       <div class="QandA">
+         <h4> Will you help to land my first webdev job ? </h4>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         </p>
+       </div>
+     </article>
+
+
+  </div>
+</section>
+
+<section class="container testimonals_section mySwiper">
+  <h2> Student's Testimonials </h2>
+  <div class="testimonals_container swiper-wrapper">
+
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar1.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Diana ayi </h5>
+         <small> Student </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar2.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Ernest Acheiver </h5>
+         <small> Web Developer </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar3.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Edem quist </h5>
+         <small> Student </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar4.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Fatima ohona </h5>
+         <small> Manager </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar5.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Lina Spoon </h5>
+         <small> Marketer </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar6.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Sofa blinsh </h5>
+         <small> Student </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+    <article class="student_testimonial swiper-slide">
+       <div class="avatar">
+         <img src="./images/avatar7.jpg" alt="a curly haired brown teenager girl">
+       </div>
+       <div class="avatar_info">
+         <h5> Manuela laibs </h5>
+         <small> Photographer </small>
+       </div>
+       <div class="the_testimonial">
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+             eiusmod tempor lorem ipsum dolor sit amet, consectetur,
+             sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+       </div>
+    </article>
+
+
+
+  </div>
+</section>
+
+
+<footer>
+<div class="container footer__container">
+  <div class="agency">
+    <h4> EGATOR </h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor.
+    </p>
+  </div>
+
+  <div class="permalinks">
+    <h4> Permalinks </h4>
+    <ul class="suite">
+       <li> <a href="index.html"> Home </a> </li>
+       <li> <a href="about.html"> About Us </a> </li>
+       <li> <a href="courses.html"> Courses </a>  </li>
+       <li> <a href="contact.html"></a> Contact </li>
+    </ul>
+  </div>
+
+  <div class="primacy">
+    <h4> Primacy </h4>
+    <ul class="suite">
+      <li> Privacy Policy </li>
+      <li> Terms and conditions </li>
+      <li> Refund Policy </li>
+    </ul>
+  </div>
+
+  <div class="contactInfo">
+    <h4> Contact Us </h4>
+    <ul class="suite infolist">
+      <li> +05 948 290 4398 </li>
+      <li> support@gmail.com </li>
+    </ul>
+  </div>
+
+</div>
+
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js" type="text/javascript"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }, breakpoints: {
+        600: {
+          slidesPerView: 2,
+        }
+      }
+    });
+  </script>
+
+
+
+
+
+  </body>
+</html>
